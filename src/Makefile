@@ -6,7 +6,7 @@ all:	$(TARGETS)
 
 
 clean:
-	rm *.o $(TARGETS)
+	rm -f *.o $(TARGETS)
 
 
 example1:	example1.o decodeJSON.o
